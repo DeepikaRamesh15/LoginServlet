@@ -30,8 +30,8 @@ public class Login extends HttpServlet {
     }
     else {
     	response.getWriter().print("Invalid Credentials");
-    	response.sendRedirect("index.jsp");
-    	response.sendRedirect("http://www.google.com");
+//    	response.sendRedirect("index.jsp");
+//    	response.sendRedirect("http://www.google.com");
     }
 
   }
