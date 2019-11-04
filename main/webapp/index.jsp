@@ -8,13 +8,9 @@
   <body>
     <h1>Hello App Engine!</h1>
 
-    <table>
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
-      </tr>
-      <tr>
-        <td><a href='/hello'>The servlet</a></td>
-      </tr>
-    </table>
-  </body>
+    <form action="/Login" method="post">
+		User name :<input type="text" name="username"><br>
+		Password  :<input type="password" name="password"><br>
+		<input type="submit">
+    </form>  </body>
 </html>
