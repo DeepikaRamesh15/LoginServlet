@@ -26,6 +26,7 @@ class MockHttpServletResponse implements HttpServletResponse {
 
   @Override
   public void setContentType(String contentType) {
+  	//simple comment
     this.contentType = contentType;
   }
 
